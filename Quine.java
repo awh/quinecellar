@@ -1,0 +1,1 @@
+public class Quine { static char c = '"'; static String s = "public class Quine { static char c = '%c'; static String s = %c%s%c; public static void main(String[] args) { System.out.println(String.format(s, c, c, s, c)); } }"; public static void main(String[] args) { System.out.println(String.format(s, c, c, s, c)); } }
